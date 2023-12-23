@@ -500,14 +500,15 @@ a {
 .modal-btn:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-icon-btn {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon-btn:hover,
+/* .modal-icon-btn:hover,
 .modal-icon-btn:focus {
   fill: #ffffff;
-}
+} */
 .modal-text {
   font-weight: 500;
   font-size: 16px;
@@ -602,4 +603,22 @@ a {
 }
 .form-link {
   color: #4d5ae5;
+}
+.btn-form {
+  margin: 24px auto;
+
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
