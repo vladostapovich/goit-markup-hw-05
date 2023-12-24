@@ -388,7 +388,7 @@
         <p class="footer-form-text">Subscribe</p>
         <form class="footer-mail-form" name="mail">
           <label class="form-footer-list">
-            <input class="mail-input" type="mail" placeholder="E-mail">
+            <input class="mail-input" name="email" type="email" placeholder="E-mail">
           </label>
           <button class="footer-mail-btn" type="submit">Subscribe
             <svg class="footer-mail-icon" width="24" height="24">
@@ -437,23 +437,24 @@
         </div>
         <div class="field">
           <label class="form-label" for="user-comment">Comment</label>
-          <div class="form-field">
-            <textarea class="form-message" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
-            </svg>
-          </div>
+          <textarea class="form-message" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+          </svg>
         </div>
+
         <div class="form-chekbox">
-          <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
-          <span class="form-list-checkbox">
-            <svg class="form-list-icon" width="10" height="8">
-              <use href="./images/sprite.svg#icon-Checkbox"></use>
-            </svg>
-          </span>
-          <label class="form-list" for="user-privacy"> I accept the terms and conditions of the</label>
-          <a class="form-link" href="">Privacy Policy</a>
+          <label class="form-list">
+            <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+              value="true" />
+            <span class="form-list-checkbox">
+              <svg class="form-list-icon" width="10" height="8">
+                <use href="./images/sprite.svg#icon-Property"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="form-link" href="">Privacy Policy</a>
+          </label>
           <button class="btn-form" type="button">Send</button>
 
-        </div>
       </form>
     </div>
   </div>
