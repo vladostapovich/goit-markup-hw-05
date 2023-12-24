@@ -568,6 +568,9 @@ a {
 .field {
   margin-bottom: 8px;
 }
+.field-textarea {
+  margin-bottom: 16px;
+}
 .form-label {
   font-size: 12px;
   line-height: 1.17;
@@ -644,6 +647,7 @@ a {
   justify-content: center;
   fill: transparent;
 }
+
 .checkbox:checked + .form-list-checkbox {
   background-color: #404bbf;
   border: none;
@@ -655,7 +659,6 @@ a {
 }
 .btn-form {
   margin: 24px auto;
-
   display: block;
   min-width: 169px;
   height: 56px;
