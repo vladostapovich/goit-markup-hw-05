@@ -658,6 +658,9 @@ a {
   border: none;
   fill: #f4f4fd;
 }
+.form-link {
+  color: #4d5ae5;
+}
 .btn-form {
   margin: 24px auto;
   display: block;
