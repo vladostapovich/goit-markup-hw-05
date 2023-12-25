@@ -653,9 +653,10 @@ a {
   border: none;
   fill: #f4f4fd;
 }
-
-.form-link {
-  color: #4d5ae5;
+.checkbox:checked + .form-list > .form-list-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 .btn-form {
   margin: 24px auto;
